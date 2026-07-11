@@ -1,7 +1,7 @@
 HOST ?= 0.0.0.0
-PORT ?= 4326
+PORT ?= 4327
 
-.PHONY: install dev build preview pre check cv-export
+.PHONY: install dev build preview serve pre check cv-export
 
 install:
 	pnpm install
@@ -14,6 +14,9 @@ build:
 
 preview: build
 	pnpm exec astro preview --host $(HOST) --allowed-hosts --port $(PORT)
+
+serve: build
+	python3 -m http.server $(PORT) --bind $(HOST) --directory dist
 
 pre:
 	pnpm run precommit
