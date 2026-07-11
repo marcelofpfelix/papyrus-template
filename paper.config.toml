@@ -1,0 +1,78 @@
+[site]
+title = "Papyrus template"
+description = "A small Astro site powered by Papyrus."
+url = "https://papyrus-template.local"
+lang = "en"
+dir = "ltr"
+timezone = "UTC"
+
+[brand]
+title = "Papyrus template"
+mark = "twinkle"
+show_title = true
+
+[theme]
+profile = "everforest"
+font_profile = "readable"
+
+[features]
+graph = false
+search = false
+comments = false
+postStats = false
+
+[post_card]
+tags = true
+read_time = true
+fresh_indicators = true
+fresh_indicator_text = false
+updated_date_only = true
+limit = 20
+
+[[nav]]
+href = "/posts/"
+label = "Posts"
+
+[[nav]]
+href = "/projects/"
+label = "Projects"
+
+[[nav]]
+href = "/profile/"
+label = "Profile"
+
+[[social]]
+href = "https://github.com/site-owner"
+label = "GitHub"
+icon = "github"
+
+[[project]]
+title = "Papyrus site"
+description = "The starter site you are editing: one post, two projects, profile data, tags, RSS, and inherited Papyrus UI."
+href = "/posts/welcome/"
+image = "/images/cover.svg"
+repo = "https://github.com/site-owner/papyrus-template"
+pinned = true
+status = "active"
+
+  [[project.links]]
+  href = "/posts/welcome/"
+  label = "post"
+
+  [[project.links]]
+  href = "https://github.com/site-owner/papyrus-template"
+  label = "repo"
+  text = "site-owner/papyrus-template"
+
+[[project]]
+title = "Papyrus"
+description = "The reusable Astro theme package that provides the layouts, post UI, project cards, profile components, RSS helpers, and theme styles."
+href = "https://github.com/marcelofpfelix/papyrus"
+image = "/images/papyrus.svg"
+repo = "https://github.com/marcelofpfelix/papyrus"
+status = "upstream"
+
+  [[project.links]]
+  href = "https://github.com/marcelofpfelix/papyrus"
+  label = "repo"
+  text = "marcelofpfelix/papyrus"

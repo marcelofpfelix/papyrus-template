@@ -1,0 +1,15 @@
+{
+  "name": "Papyrus template",
+  "short_name": "Papyrus",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "theme_color": "#1e2326",
+  "background_color": "#1e2326",
+  "display": "standalone"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "papyrus-template",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0",
+    "build": "pnpm run cv:export && astro check && astro build",
+    "cv:export": "papyrus-cv-export src/data/profile.toml public/cv/profile",
+    "check": "astro check",
+    "preview": "astro preview --host 0.0.0.0",
+    "sync": "astro sync",
+    "precommit": "pnpm run cv:export && pnpm run check"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^7.0.4",
+    "astro-theme-papyrus": "github:marcelofpfelix/papyrus#0.2.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.9",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@11.9.0"
+}

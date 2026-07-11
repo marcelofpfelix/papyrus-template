@@ -1,0 +1,65 @@
+[user]
+name = "Site Author"
+handle = "site-author"
+avatar = "/images/avatar.svg"
+favicon = "/favicon.svg"
+og_image = "/images/cover.svg"
+canonical_cv = "/profile/"
+bio = "Writer and builder"
+summary = "A short public profile powered by Papyrus and stored in TOML."
+email_user = "hello"
+email_domain = "site.test"
+links = ["github", "website"]
+location = "Remote"
+roles = ["Author", "Builder"]
+pages = 1
+sections = ["profile", "projects", "skills"]
+
+[user.github]
+name = "site-owner"
+url = "https://github.com/"
+icon = "github"
+
+[user.website]
+name = "example.site"
+href = "https://example.site"
+icon = "link"
+
+[user.data.profile]
+title = "Profile"
+icon = "user"
+page = 1
+groups = ["profile"]
+
+[user.data.profile.profile]
+items = ["profile"]
+
+[user.data.profile.profile.profile]
+title = "Profile"
+description = "Replace this summary with a concise profile for the site owner."
+
+[user.data.projects]
+title = "Projects"
+icon = "repo"
+page = 1
+groups = ["projects"]
+
+[user.data.projects.projects]
+items = ["site"]
+
+[user.data.projects.projects.site]
+title = "Papyrus template"
+description = "A small Astro site that inherits reusable UI from Papyrus."
+
+[user.data.skills]
+title = "Skills"
+icon = "tools"
+page = 1
+groups = ["skills"]
+
+[user.data.skills.skills]
+items = ["skills"]
+
+[user.data.skills.skills.skills]
+title = "Skills"
+description = "<ul><li>Writing public notes.</li><li>Publishing static Astro pages.</li><li>Keeping site data in TOML.</li></ul>"

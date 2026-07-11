@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Papyrus template cover</title>
+  <desc id="desc">Everforest-style cover for a minimal Papyrus site.</desc>
+  <rect width="1200" height="630" fill="#1e2326"/>
+  <rect x="110" y="94" width="980" height="442" rx="24" fill="#272e33"/>
+  <path d="M190 180h500M190 268h680M190 356h560" stroke="#dbbc7f" stroke-width="28" stroke-linecap="round"/>
+  <path d="M190 450h300" stroke="#a7c080" stroke-width="24" stroke-linecap="round"/>
+</svg>
