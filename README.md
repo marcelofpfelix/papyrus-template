@@ -4,11 +4,14 @@ Minimal Astro site template for Papyrus. Create a new repository from this
 GitHub template, then edit:
 
 - `paper.config.toml` for site title, navigation, theme, projects, and feature flags.
+  This file is optional; Papyrus falls back to package defaults when it is missing.
 - `src/data/profile.toml` for the profile/CV page.
 - `src/content/posts/welcome.md` for the first post.
 
-Papyrus injects the standard pages from the theme package. This template keeps
-only the site config, profile config, post content, and asset overrides.
+Papyrus injects the standard pages from the theme package, including home,
+about, posts, projects, profile, tags, RSS, robots, and 404 routes. This
+template keeps
+only the starter site config, profile config, post content, and asset overrides.
 
 Run locally:
 

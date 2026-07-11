@@ -2,18 +2,12 @@
 title = "Papyrus template"
 description = "A small Astro site powered by Papyrus."
 url = "https://papyrus-template.local"
-lang = "en"
-dir = "ltr"
-timezone = "UTC"
 
 [brand]
 title = "Papyrus template"
-mark = "twinkle"
-show_title = true
 
 [theme]
 profile = "everforest"
-font_profile = "readable"
 
 [features]
 graph = false
@@ -22,9 +16,6 @@ comments = false
 postStats = false
 
 [post_card]
-tags = true
-read_time = true
-fresh_indicators = true
 fresh_indicator_text = false
 updated_date_only = true
 limit = 20
