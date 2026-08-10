@@ -15,12 +15,15 @@ importers:
         specifier: ^7.0.4
         version: 7.0.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.2)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0)
       astro-theme-papyrus:
-        specifier: github:marcelofpfelix/papyrus#0.2.0
-        version: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/f177699fd7e9c1966f2e83f43fc6f85dbe4a3a58(@types/node@24.13.2)(astro@7.0.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.2)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(typescript@5.9.3)(vite@8.1.3(@types/node@24.13.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
+        specifier: github:marcelofpfelix/papyrus#0.2.1
+        version: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/576e1e76644ce66f3e33eb5efcb29e9d9f4e045e(@types/node@24.13.2)(astro@7.0.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.2)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(typescript@5.9.3)(vite@8.1.3(@types/node@24.13.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.9
         version: 0.9.9(prettier@3.9.4)(typescript@5.9.3)
+      pagefind:
+        specifier: ^1.5.2
+        version: 1.5.2
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -1725,9 +1728,9 @@ packages:
     resolution: {integrity: sha512-m6mFcLfk69LjAOaCZX7qvwgH/ROA6xP6JzpbCT6Ns09CuKnN/vHa7Q+6az4Fd4vNi7A4WmzyfYPU7HDnb6SV+A==}
     hasBin: true
 
-  astro-theme-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/f177699fd7e9c1966f2e83f43fc6f85dbe4a3a58:
-    resolution: {gitHosted: true, integrity: sha512-SylyNTLj4y8HuW1Eg5g7yk+2EGUb/P9uhFoXHPsr3fk4gheg50T1Kap69pHkwDTzuiCHhssvFgDPeivUtLWgSQ==, tarball: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/f177699fd7e9c1966f2e83f43fc6f85dbe4a3a58}
-    version: 0.2.0
+  astro-theme-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/576e1e76644ce66f3e33eb5efcb29e9d9f4e045e:
+    resolution: {gitHosted: true, integrity: sha512-12mAIYl6lH0Vn+Kut38I6iIT6X10MHHz8Vy8JuXdHHHyED0+XFtbIcSEEuCRM+y/Nzm1NPt8vK06W5nMg+Wh0g==, tarball: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/576e1e76644ce66f3e33eb5efcb29e9d9f4e045e}
+    version: 0.2.1
     hasBin: true
     peerDependencies:
       astro: '>=6.0.0'
@@ -5082,9 +5085,10 @@ snapshots:
       - vite
       - yaml
 
-  astro-theme-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/f177699fd7e9c1966f2e83f43fc6f85dbe4a3a58(@types/node@24.13.2)(astro@7.0.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.2)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(typescript@5.9.3)(vite@8.1.3(@types/node@24.13.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
+  astro-theme-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/576e1e76644ce66f3e33eb5efcb29e9d9f4e045e(@types/node@24.13.2)(astro@7.0.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.2)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(typescript@5.9.3)(vite@8.1.3(@types/node@24.13.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
     dependencies:
       '@astrojs/rss': 4.0.19
+      '@pagefind/default-ui': 1.5.2
       astro: 7.0.6(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.2)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0)
       astro-pure: 1.4.6(@types/node@24.13.2)(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(typescript@5.9.3)(vite@8.1.3(@types/node@24.13.2)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
       hastscript: 9.0.1
