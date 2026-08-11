@@ -25,6 +25,14 @@ description = "Latest posts from this Papyrus starter."
 [pages.projects]
 description = false
 
+[pages.about]
+description = "About this Papyrus starter."
+content = """
+This starter keeps site-specific content in TOML, Markdown, and public assets while Papyrus provides the inherited routes and components.
+
+Use this page for a short human introduction. Keep the structured resume, timeline, and printable CV details on the profile page.
+"""
+
 [[nav]]
 href = "/posts/"
 label = "Posts"
