@@ -19,6 +19,12 @@ fresh_indicator_text = false
 updated_date_only = true
 limit = 20
 
+[pages.posts]
+description = "Latest posts from this Papyrus starter."
+
+[pages.projects]
+description = false
+
 [[nav]]
 href = "/posts/"
 label = "Posts"
