@@ -9,6 +9,10 @@ title = "Papyrus template"
 [theme]
 profile = "rose-pine"
 
+[source]
+repo = "marcelofpfelix/papyrus-template"
+branch = "0.2.1"
+
 [features]
 search = true
 comments = false
