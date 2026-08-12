@@ -11,7 +11,6 @@ profile = "rose-pine"
 
 [source]
 repo = "marcelofpfelix/papyrus-template"
-branch = "0.2.1"
 
 [features]
 search = true
@@ -19,18 +18,30 @@ comments = false
 postStats = false
 
 [post_card]
-fresh_indicator_text = false
+tags = false
+read_time = false
+fresh_indicators = true
+fresh_indicator_text = true
 updated_date_only = true
 limit = 20
 
 [pages.posts]
-description = "Latest posts from this Papyrus starter."
+description = false
+
+[pages.timeline]
+description = false
+
+[pages.tags]
+description = false
+
+[pages.search]
+description = false
 
 [pages.projects]
 description = false
 
 [pages.about]
-description = "About this Papyrus starter."
+description = false
 content = """
 This starter keeps site-specific content in TOML, Markdown, and public assets while Papyrus provides the inherited routes and components.
 
@@ -61,32 +72,3 @@ label = "About"
 href = "https://github.com/marcelofpfelix"
 label = "GitHub"
 icon = "github"
-
-[[project]]
-title = "Papyrus site"
-description = "The starter site you are editing: one post, two projects, profile data, tags, RSS, and inherited Papyrus UI."
-href = "/posts/welcome/"
-repo = "https://github.com/site-owner/papyrus-template"
-pinned = true
-status = "active"
-
-  [[project.links]]
-  href = "/collections/"
-  label = "post"
-
-  [[project.links]]
-  href = "https://github.com/marcelofpfelix/papyrus-template"
-  label = "repo"
-  text = "marcelofpfelix/papyrus-template"
-
-[[project]]
-title = "Papyrus"
-description = "The reusable Astro theme package that provides the layouts, post UI, project cards, profile components, RSS helpers, and theme styles."
-href = "https://github.com/marcelofpfelix/papyrus"
-repo = "https://github.com/marcelofpfelix/papyrus"
-status = "upstream"
-
-  [[project.links]]
-  href = "https://github.com/marcelofpfelix/papyrus"
-  label = "repo"
-  text = "marcelofpfelix/papyrus"
