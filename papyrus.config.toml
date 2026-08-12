@@ -1,17 +1,20 @@
 [site]
 title = "Papyrus template"
-description = "A small Astro site powered by Papyrus."
-url = "https://papyrus-template.local"
+description = "A template for the papyrus astro theme."
+url = "https://papyrus-template.marcelofelix.com"
 
 [brand]
 title = "Papyrus template"
 
 [theme]
-profile = "everforest"
+profile = "rose-pine"
+
+[source]
+repo = "marcelofpfelix/papyrus-template"
+branch = "0.2.1"
 
 [features]
-graph = false
-search = false
+search = true
 comments = false
 postStats = false
 
@@ -19,6 +22,20 @@ postStats = false
 fresh_indicator_text = false
 updated_date_only = true
 limit = 20
+
+[pages.posts]
+description = "Latest posts from this Papyrus starter."
+
+[pages.projects]
+description = false
+
+[pages.about]
+description = "About this Papyrus starter."
+content = """
+This starter keeps site-specific content in TOML, Markdown, and public assets while Papyrus provides the inherited routes and components.
+
+Use this page for a short human introduction. Keep the structured resume, timeline, and printable CV details on the profile page.
+"""
 
 [[nav]]
 href = "/posts/"
@@ -29,11 +46,19 @@ href = "/projects/"
 label = "Projects"
 
 [[nav]]
+href = "/collections/"
+label = "Collections"
+
+[[nav]]
 href = "/profile/"
 label = "Profile"
 
+[[nav]]
+href = "/about/"
+label = "About"
+
 [[social]]
-href = "https://github.com/site-owner"
+href = "https://github.com/marcelofpfelix"
 label = "GitHub"
 icon = "github"
 
@@ -41,25 +66,23 @@ icon = "github"
 title = "Papyrus site"
 description = "The starter site you are editing: one post, two projects, profile data, tags, RSS, and inherited Papyrus UI."
 href = "/posts/welcome/"
-image = "/images/cover.svg"
 repo = "https://github.com/site-owner/papyrus-template"
 pinned = true
 status = "active"
 
   [[project.links]]
-  href = "/posts/welcome/"
+  href = "/collections/"
   label = "post"
 
   [[project.links]]
-  href = "https://github.com/site-owner/papyrus-template"
+  href = "https://github.com/marcelofpfelix/papyrus-template"
   label = "repo"
-  text = "site-owner/papyrus-template"
+  text = "marcelofpfelix/papyrus-template"
 
 [[project]]
 title = "Papyrus"
 description = "The reusable Astro theme package that provides the layouts, post UI, project cards, profile components, RSS helpers, and theme styles."
 href = "https://github.com/marcelofpfelix/papyrus"
-image = "/images/papyrus.svg"
 repo = "https://github.com/marcelofpfelix/papyrus"
 status = "upstream"
 

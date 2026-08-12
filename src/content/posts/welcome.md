@@ -12,5 +12,5 @@ tags:
 This site keeps content and configuration local while inheriting the repeated UI
 from Papyrus.
 
-Edit this post, update `paper.config.toml`, replace `src/data/profile.toml`, and
+Edit this post, update `papyrus.config.toml`, replace `src/data/profile.toml`, and
 publish the generated static site.
