@@ -9,6 +9,9 @@ title = "Papyrus template"
 [theme]
 profile = "rose-pine"
 
+[profile.images]
+effect = "mono-accent"
+
 [source]
 repo = "marcelofpfelix/papyrus-template"
 branch = "0.2.1"
@@ -18,19 +21,7 @@ search = true
 comments = false
 postStats = false
 
-[post_card]
-fresh_indicator_text = false
-updated_date_only = true
-limit = 20
-
-[pages.posts]
-description = "Latest posts from this Papyrus starter."
-
-[pages.projects]
-description = false
-
 [pages.about]
-description = "About this Papyrus starter."
 content = """
 This starter keeps site-specific content in TOML, Markdown, and public assets while Papyrus provides the inherited routes and components.
 
