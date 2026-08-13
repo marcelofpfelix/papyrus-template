@@ -10,7 +10,7 @@ title = "Papyrus template"
 profile = "rose-pine"
 
 [profile.images]
-effect = "mono-accent"
+effect = "tricolor"
 
 [source]
 repo = "marcelofpfelix/papyrus-template"
