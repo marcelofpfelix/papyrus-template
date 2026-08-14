@@ -1,1 +1,1 @@
-export { collections } from "astro-theme-papyrus/content";
+export { collections } from "astro-papyrus/content";

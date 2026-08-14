@@ -20,7 +20,7 @@ pnpm install
 pnpm dev
 ```
 
-The template consumes Papyrus from `github:marcelofpfelix/papyrus#0.2.1` until
-`astro-theme-papyrus@0.2.1` is published to npm. Papyrus injects the standard
+The template consumes Papyrus from `github:marcelofpfelix/papyrus#0.2.2` until
+`astro-papyrus@0.2.2` is published to npm. Papyrus injects the standard
 pages; this repo keeps the site config, profile config, one post, and asset
 overrides.
