@@ -3,4 +3,5 @@ dist/
 .astro/
 public/cv/
 public/pagefind/
+public/generated/
 .DS_Store
