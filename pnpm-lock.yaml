@@ -13,7 +13,7 @@ importers:
         version: 7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@24.13.3)(jiti@2.7.0)(yaml@2.9.0)
       astro-papyrus:
         specifier: github:marcelofpfelix/papyrus#0.2.2
-        version: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/8fc2b77d1d95d4d54b7683c9d5d4f9781aaeffdb(@types/node@24.13.3)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@24.13.3)(jiti@2.7.0)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.4)(typescript@5.9.3)(vite@8.2.1(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
+        version: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/5945617f3f467434eb8ec0ae67072a3fe14e24cd(@types/node@24.13.3)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@24.13.3)(jiti@2.7.0)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.4)(typescript@5.9.3)(vite@8.2.1(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0)
     devDependencies:
       '@astrojs/check':
         specifier: ^0.9.9
@@ -1752,8 +1752,8 @@ packages:
     resolution: {integrity: sha512-LElXdjswlqjWrPpJFg1Fx4wpkOCxj1TDHlSV4PlaRxHGWko024xICaa97ZkMfs6DRKlCguiAI+rbXv5GWwXIkg==}
     hasBin: true
 
-  astro-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/8fc2b77d1d95d4d54b7683c9d5d4f9781aaeffdb:
-    resolution: {gitHosted: true, integrity: sha512-TPbbTtDSnPWswPCI8NrsbOfIar9GXOBTOmm3lId/+ItjLGrwG70JrGP6MLnocjgutfZnR3KJh+hPHOEnA4Kz0A==, tarball: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/8fc2b77d1d95d4d54b7683c9d5d4f9781aaeffdb}
+  astro-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/5945617f3f467434eb8ec0ae67072a3fe14e24cd:
+    resolution: {gitHosted: true, integrity: sha512-ShW6D+5pJf1aimJWEWF+MDJRgvM6ibzW/lFkr4RlF08NWKF72Y+EEJCGjZziaT1DjBBn4HFZnBL/yREQLXpf8A==, tarball: https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/5945617f3f467434eb8ec0ae67072a3fe14e24cd}
     version: 0.2.2
     hasBin: true
     peerDependencies:
@@ -5118,7 +5118,7 @@ snapshots:
 
   astring@1.9.0: {}
 
-  astro-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/8fc2b77d1d95d4d54b7683c9d5d4f9781aaeffdb(@types/node@24.13.3)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@24.13.3)(jiti@2.7.0)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.4)(typescript@5.9.3)(vite@8.2.1(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
+  astro-papyrus@https://codeload.github.com/marcelofpfelix/papyrus/tar.gz/5945617f3f467434eb8ec0ae67072a3fe14e24cd(@types/node@24.13.3)(astro@7.2.0(@astrojs/markdown-remark@7.2.2)(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.3)(@types/node@24.13.3)(jiti@2.7.0)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.4)(typescript@5.9.3)(vite@8.2.1(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))(yaml@2.9.0):
     dependencies:
       '@astrojs/markdown-remark': 7.2.2
       '@astrojs/rss': 4.0.19
