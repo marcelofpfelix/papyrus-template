@@ -1,6 +1,7 @@
 node_modules/
 dist/
 .astro/
+.lighthouse/
 public/cv/
 public/pagefind/
 public/generated/
